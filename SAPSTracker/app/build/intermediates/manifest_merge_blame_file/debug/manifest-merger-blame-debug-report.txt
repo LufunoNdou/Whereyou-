@@ -1,0 +1,205 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.sapstracker"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.READ_CONTACTS" />
+11-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:5:5-72
+11-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:5:22-69
+12
+13    <!-- Include required permissions for Google Maps API to run. -->
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+14-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+15-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:22-64
+16
+17    <uses-feature
+17-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+18        android:glEsVersion="0x00020000"
+18-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+19        android:required="true" />
+19-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+20
+21    <queries>
+21-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+22
+23        <!-- Needs to be explicitly declared on Android R+ -->
+24        <package android:name="com.google.android.apps.maps" />
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+24-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+25    </queries>
+26
+27    <permission
+27-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+28        android:name="com.example.sapstracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+28-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+29        android:protectionLevel="signature" />
+29-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+30
+31    <uses-permission android:name="com.example.sapstracker.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+31-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+31-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+32
+33    <application
+33-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:7:5-40:19
+34        android:allowBackup="true"
+34-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:8:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.9.0] C:\Users\Mpho\.gradle\caches\transforms-3\80ecb3125b3fdd8b05d35979627b84fb\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+36        android:dataExtractionRules="@xml/data_extraction_rules"
+36-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:9:9-65
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:fullBackupContent="@xml/backup_rules"
+39-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:10:9-54
+40        android:icon="@mipmap/ic_launcher"
+40-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:11:9-43
+41        android:label="@string/app_name"
+41-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:12:9-41
+42        android:roundIcon="@mipmap/ic_launcher_round"
+42-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:13:9-54
+43        android:supportsRtl="true"
+43-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:14:9-35
+44        android:theme="@style/Theme.SAPSTracker" >
+44-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:15:9-49
+45        <activity
+45-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:17:9-25:20
+46            android:name="com.example.sapstracker.SplashScreen"
+46-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:18:13-41
+47            android:exported="true" >
+47-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:19:13-36
+48            <intent-filter>
+48-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:20:13-24:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:21:17-69
+49-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:21:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:23:17-77
+51-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:23:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:26:9-28:40
+55            android:name="com.example.sapstracker.Call_View_Activity"
+55-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:27:13-47
+56            android:exported="false" />
+56-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:28:13-37
+57        <activity
+57-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:29:9-39:20
+58            android:name="com.example.sapstracker.MainActivity"
+58-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:30:13-41
+59            android:exported="true" >
+59-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:31:13-36
+60
+61            <!-- Add this intent filter to make MainActivity the launcher activity -->
+62            <intent-filter>
+62-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:20:13-24:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:21:17-69
+63-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:21:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:23:17-77
+65-->C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\src\main\AndroidManifest.xml:23:27-74
+66            </intent-filter>
+67        </activity>
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:18.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\84301d9fb8b535277f13d5cd8750fcd7\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mpho\.gradle\caches\transforms-3\ee1e29301a2d81e9a0f851a641d3960c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mpho\.gradle\caches\transforms-3\ee1e29301a2d81e9a0f851a641d3960c\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mpho\.gradle\caches\transforms-3\ee1e29301a2d81e9a0f851a641d3960c\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Mpho\.gradle\caches\transforms-3\ee1e29301a2d81e9a0f851a641d3960c\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+77
+78        <meta-data
+78-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mpho\.gradle\caches\transforms-3\e53f49d2b1007fec8c8b2d877244fd88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+79            android:name="com.google.android.gms.version"
+79-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mpho\.gradle\caches\transforms-3\e53f49d2b1007fec8c8b2d877244fd88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+80            android:value="@integer/google_play_services_version" />
+80-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Mpho\.gradle\caches\transforms-3\e53f49d2b1007fec8c8b2d877244fd88\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+81
+82        <provider
+82-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+84            android:authorities="com.example.sapstracker.androidx-startup"
+84-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+85            android:exported="false" >
+85-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+86            <meta-data
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+87                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+88                android:value="androidx.startup" />
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Mpho\.gradle\caches\transforms-3\32d40f7c2082da069179f714e9c217fb\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+89            <meta-data
+89-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Mpho\.gradle\caches\transforms-3\e0de98727c45f05e10189f3a0262377b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+90                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+90-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Mpho\.gradle\caches\transforms-3\e0de98727c45f05e10189f3a0262377b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+91                android:value="androidx.startup" />
+91-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Mpho\.gradle\caches\transforms-3\e0de98727c45f05e10189f3a0262377b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+92            <meta-data
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+93                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+94                android:value="androidx.startup" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+95        </provider>
+96
+97        <receiver
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+98            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+99            android:directBootAware="false"
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+100            android:enabled="true"
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+101            android:exported="true"
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+102            android:permission="android.permission.DUMP" >
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+103            <intent-filter>
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+104                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+105            </intent-filter>
+106            <intent-filter>
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+107                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+108            </intent-filter>
+109            <intent-filter>
+109-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+110                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+111            </intent-filter>
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+113                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Mpho\.gradle\caches\transforms-3\88cfc536497c58ad320f63da0a9bed18\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+114            </intent-filter>
+115        </receiver>
+116    </application>
+117
+118</manifest>

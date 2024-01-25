@@ -1,0 +1,6 @@
+com.example.sapstracker.test.app-annotation-experimental-1.3.0-0 C:\Users\Mpho\.gradle\caches\transforms-3\10d575adc061d1ca71c075445f9fa9be\transformed\annotation-experimental-1.3.0\res
+com.example.sapstracker.test.app-core-1.5.0-1 C:\Users\Mpho\.gradle\caches\transforms-3\ef7fd672ab477b6aef8c059db2f7b8a3\transformed\core-1.5.0\res
+com.example.sapstracker.test.app-androidTest-2 C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\build\generated\res\resValues\androidTest\debug
+com.example.sapstracker.test.app-mergeDebugAndroidTestResources-3 C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.sapstracker.test.app-mergeDebugAndroidTestResources-4 C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.sapstracker.test.app-merged_res-5 C:\Users\Mpho\AndroidStudioProjects\SAPSTracker\app\build\intermediates\merged_res\debugAndroidTest
